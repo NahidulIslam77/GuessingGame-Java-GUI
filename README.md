@@ -1,4 +1,4 @@
-# # 🎰 Jackpot Guessing Game
+# Jackpot Guessing Game
 
 > A simple Java Swing game where players try to find the hidden jackpot before losing all 3 lives.
 
