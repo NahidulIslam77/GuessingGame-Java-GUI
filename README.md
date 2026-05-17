@@ -1,25 +1,94 @@
-# Jackpot Guessing Game
+# # 🎰 Jackpot Guessing Game
 
-A simple and colorful Java Swing game where the player tries to find the hidden jackpot before running out of lives.
+> A simple Java Swing game where players try to find the hidden jackpot before losing all 3 lives.
 
-Built with core Java and Swing to practice GUI development, event handling, and basic game logic.
+---
 
-🚀 Features
-🎮 Interactive GUI using Java Swing
-🎲 Randomized jackpot location
-❤️ 3-life game system
-🔄 Jackpot reshuffles after every wrong guess
-🏆 Win and Game Over screens
-🔁 Restart / Play Again functionality
-🎨 Simple and beginner-friendly design
+# 📌 Overview
 
-🛠️ Technologies Used
-Java
-Java Swing
-AWT Event Handling
-📸 Game Preview
+This project is a beginner-friendly desktop game built using **Java Swing** and **AWT Event Handling**.
+The game randomly hides a jackpot inside one of three boxes, and the player must guess the correct box.
 
-The player chooses one of three mystery boxes:
-Correct guess → YOU WIN
-Wrong guess → lose a life and the jackpot moves
-No lives left → GAME OVER
+After every wrong guess:
+
+* A life is lost
+* The jackpot location changes randomly
+
+The game ends when:
+
+* ✅ The player finds the jackpot
+* ❌ All lives are lost
+
+---
+
+# ✨ Features
+
+| Feature            | Description                           |
+| ------------------ | ------------------------------------- |
+| 🎮 Interactive GUI | Built completely with Java Swing      |
+| 🎲 Random Jackpot  | Jackpot changes position dynamically  |
+| ❤️ Life System     | Player gets 3 attempts                |
+| 🏆 Win Screen      | Displays winning message              |
+| ❌ Game Over Screen | Appears after all lives are lost      |
+| 🔁 Restart Option  | Play again without restarting program |
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology   | Purpose                       |
+| ------------ | ----------------------------- |
+| Java         | Core programming language     |
+| Swing        | GUI design                    |
+| AWT          | Event handling and UI support |
+| Random Class | Random jackpot generation     |
+
+---
+
+# 📂 Project Structure
+
+```text
+Jackpot-Guessing-Game/
+│
+├── GuessingGame.java
+└── README.md
+```
+
+---
+
+
+
+# 🎮 Gameplay
+
+| Action            | Result                |
+| ----------------- | --------------------- |
+| Correct Guess     | Player wins instantly |
+| Wrong Guess       | Lose 1 life           |
+| 0 Lives Remaining | Game Over             |
+
+---
+
+# 🧠 Concepts Practiced
+
+This project helped in understanding:
+
+* GUI development with Swing
+* Event-driven programming
+* Java ActionListeners
+* Dynamic screen updates
+* Randomized game logic
+* Restarting application states
+
+---
+
+# 🚀 Future Improvements
+
+* 🔊 Sound effects
+* 🎨 Better UI styling
+* ⏱️ Timer mode
+* 📈 Score tracking
+* 🎯 Difficulty levels
+* 📱 Responsive layout
+
+---
+
